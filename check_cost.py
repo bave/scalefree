@@ -16,3 +16,4 @@ for i in keys:
     cost.append(tmp)
 
 print cost
+print max(cost)

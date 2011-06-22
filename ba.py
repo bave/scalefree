@@ -155,7 +155,7 @@ if __name__ == "__main__":
     ba=ba()
     ba.generate(500)
     ba.printLink()
-    #ba.write("./test")
+    ba.write("./test")
     #ba.draw(1280, 800) # this method use only nodebox..
 #end_if
 

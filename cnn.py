@@ -136,6 +136,6 @@ if __name__ == "__main__":
     graph = cnn()
     graph.generate_node(1000, 0.666)
     graph.printLink()
-    #graph.write("./test")
+    graph.write("./test")
     #graph.draw(1280, 800)
 #end_if
