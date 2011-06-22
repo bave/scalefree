@@ -40,6 +40,7 @@ class dirsf():
 
     def generate(self, step, alpha, beta, din, dout):
         for var in xrange(step):
+            print "step is", var
             rnd = random.random()
             #print self.n
             if rnd < alpha:
@@ -182,11 +183,12 @@ class dirsf():
 if __name__ == "__main__":
     # class action check code
     graph = dirsf()
-    graph.generate(10, 0.41, 0.59, 0.24, 0.0)
+    graph.generate(1000, 0.41, 0.59, 0.24, 0.0)
     print "out_Link"
     graph.printLink_out()
     print "in_Link"
     graph.printLink_in()
+    graph.write("./test");
     #graph.draw(1440, 900)
 #end_if
 

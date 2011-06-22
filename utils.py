@@ -250,8 +250,6 @@ def top2obj(filename):
     data=i.split()
     nodes[data[0]].link.append(nodes[data[1]])
   return nodes
-#end_def
-
 
 def hash_degree(hash):
   max = 0
